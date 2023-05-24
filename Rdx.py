@@ -18,45 +18,10 @@ except ModuleNotFoundError:
     os.system('pip install mechanize requests futures bs4==2 > /dev/null')
     os.system('pip install bs4')
     
-    meyermarexudi =(""" \33[38;5;191m══════════════════════════════════════════════════""")    
-alltimexudi =(""" \3[1;32mONLY FREE APPROVAL SYSTEM 7 DEYS FREE APPROVAL""")
-xudartimenai =(""" \33[1;92mCONTACT ADMIN PLZ ENTAR""")
-fuckyoursali =(""" \3[1;32mYour Token is Successfully Approved""")
-xudinaministar =(""" \3[1;32mImportent Note """)
-hedaborakarent =(""" \3[1;32mFuck ByPasar Chake Your Data """)
-#____APPROVAL SYSTEM ADD_____#
-def meyexudi():
-  os.system('clear')
-  print(logo)
-  uuid = str(os.geteuid()) + str(os.getlogin())
-  id = "-".join(uuid)
-  try:
-    httpCaht = requests.get('https://raw.githubusercontent.com/Facebook-12/aproval/main/Aprove2').text
-    if id in httpCaht:
-      print(fuckyoursali)
-      print(hedaborakarent)
-      msg = str(os.geteuid())
-      #time.sleep(0.5)
-      print()
-      pass
-    else:
-      print(meyermarexudi)
-      print(" \33[1;92mYour Kay : "+id)
-      print(meyermarexudi)
-      print(xudinaministar)
-      print(meyermarexudi)
-      print(alltimexudi)
-      print(meyermarexudi)
-      print(xudartimenai)
-      print(meyermarexudi)
-      input(' \3[1;32mIF U WANT TO BUY THEN PRESS ENTER ')
-      tks = ('Hello%20Sir%20!%20Please%20Approve%20My%20Token%20The%20Token%20Is%20:%20'+id);os.system('am start https://wa.me/+8801309421298?text='+tks),approval()
-      time.sleep(1)
-      meyexudi()
-  except:
-    sys.exit()
     
-    
+ 
+
+
     
 def cek_apk(session,coki):
     w=session.get("https://mbasic.facebook.com/settings/apps/tabbed/?tab=active",cookies={"cookie":coki}).text
